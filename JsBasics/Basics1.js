@@ -155,3 +155,11 @@ console.log("Exec ends");
 module.exports={User,User2,User3};
 
 //Q7. Give me an example of your choice on closure, callback, prototype, each.
+
+function Parent(Name,Age){
+    var name=Name;
+    var Age=Age;
+    var balance = 600;
+    var accpwd=890;
+    
+}
