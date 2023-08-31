@@ -1,0 +1,17 @@
+Doubts:
+
+1. 
+function SumRest(...restParams) {
+    let sum = 0;
+
+    sum = restParams.reduce((prevVal, currVal, index, arr) =>{
+        console.log("prevVal " + prevVal)
+        console.log("currVal " + currVal)
+        console.log("index " +index)
+        console.log("Array " + arr)
+        console.log("Next Iteration....... ")
+        return prevVal + currVal
+    }, 0)
+
+    return sum;
+}
